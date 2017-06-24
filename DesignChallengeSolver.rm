@@ -1,0 +1,56 @@
+Output: Sentence ".\n";
+
+"We propose a " vagueSolutionThingy " which" doesRunThatWay " and " deliversValue " while " neoLib, " by " magicThing
+
+vagueSolutionThingy: "Service", "Platform", "Device";
+
+doesRunThatWay: "is an app", " is an IoT device"
+
+deliverValue: "connects people", "improves Health", "do good deeds", "save nature", "freee your mind", "share _____", "realize yourself", "have fun"
+
+neoLib: "efficiently", "without being to difficult", "looking good", 
+
+magicThing: "Big Data", "3D Printing", "lifestream", ""
+
+
+
+
+
+
+
+Sentence: SentenceIsCreated; //, SentenceSiVingS, SentenceNeedA, SentenceIfnotTyouVerbT, SentenceTiTofT, SentenceYouMust, SentenceOnly, SentencePractice, FragmentOtherwise;
+
+SentenceSiVingS: goodThing " is " goodVerb  "ing " goodThing;
+
+SentenceTiTofT: "The " goodThing " is the " goodThing " of " goodThing;
+
+SentenceIfnotTyouVerbT: "If you don't " goodVerb ", your are "badVerbIng " your " goodThing;
+
+SentenceYouMust: "You must build  a " goodAdjective " "  neutralThing " of " goodThing;
+
+SentenceIsCreated: goodThing " is " ("created", "re-framed") " when "  goodAdjective " " goodThing " is " ("actualized","realized");
+
+SentenceOnly: "Only " goodAdjective " " goodThing " will create " goodAdjective " " neutralThing;
+
+SentenceBeA: "Be a " goodPerson "of" goodAdjective " " goodThing;
+
+SentenceNeedA: "You need a " goodVerb "ing " goodPerson " to " goodVerb " towards " goodAdjective " " goodThing;
+
+SentencePractice:"Practice " goodAdjective " " goodThing;
+
+FragmentOtherwise:"otherwise, your are only " badVerbIng " " goodThing;
+
+goodThing: "Creativity","Innovation","Future","Change","Experience","Strategy","Empathy","Collaboration", "Design", "Discoveries", "Disruption", "Insight", "Opportunity", "Design Thinking";
+
+goodPerson: "Collaborator", "Changemaker", "Designer", "Creator", "Futurist", "Strategist", "Design Thinker";
+
+
+goodVerb: "deliver", "empathize", "actualize", "create", "think", "realize", "empathize","change", "incubate", "challenge", "re-frame", "grow", "explore";
+
+neutralVerb: "transition", "perform";
+
+badVerbIng: "postponing", "ruining", "faking";
+
+neutralThing: "industry", "Product", "culture", "problem";
+
+goodAdjective: "smart", "right-brained", "designed", "creative", "novel", "disruptive", "relentless", "disruptive", "innovative", "Apple-like", "holistic", "delightful", "unique";
