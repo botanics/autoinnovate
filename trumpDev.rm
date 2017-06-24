@@ -1,0 +1,49 @@
+Output: Sentence "\n";
+
+Sentence: SentenceIamGreat, SentenceBlaming, SentenceProduct, AdviceStupid, SentenceMake;
+
+SentenceIamGreat: "It is a " HowItIs " "Thing ". " ParticleAfterMe;
+
+AdviceStupid: "They say: " (AdviceDo, "Dont " AdviceDont) "." ("I mean, like " areLike " programmers do?!",ParticleAfterOthers); 
+
+SentenceBlaming: (mainAntagonist=Antagonist) ParticleBefore ": The " mainAntagonist "is " evil (".","!"{1,6}) ParticleAfterMe;
+
+SentenceProduct: (mainProduct=Product) "I looked at " mainProduct " " Antagonist " made it " ThingsAre (".", "!"{1,6});
+
+
+SentenceMake: "I will make a " HowItIs " " Thing ". And I make " Antagonist ("pay for ","write documentation for ", "rebase ", "refactor ") "it" (".","!"{1,6}) ParticleAfterMe;
+
+Thing: "Commit", "Patch", "Change", "Improvement", "Fix", "Update", "alt-feature";
+
+HowItIs: "yuuge ", "great ", "the best ", "tremendous ";
+
+ParticleAfterMe: " Believe me!", " Just look!", "TRUTH";
+
+ParticleAfterOthers: "FAKE", "LIERS", "BAD", "DUMB", "WRONG", "SAD", "I DONT think SO";
+
+ParticleBefore: "Here it is", "Many people have been telling me", "Let me tell you";
+
+Antagonist: "the " ("PICKY","nitpicking", "") " reviewer ", "the "("bureaucratic ", "pencil-pushing ", "") " Architecture Commitee ", " Community ";
+
+AdviceDo: "use composer", "write comments", "write documentation", "write unit tests", "provide a commit message", "do a rebase", "talk to the UX people";
+
+AdviceDont: "use GOTO", "use bitshifts in JavaScript", "name Bugs alt-Features", "write single char varialbes";
+
+evil: "LYING", "hiding something", "crooked", "in trouble", "NOT our Firend", "not AMREICAN";
+
+areLike: "communists", "woman", "mexican", "chinese", "gay";
+
+ThingsAre: "terrible", "bad", "broken";
+
+Product: "MediaWiki", "Wikidata", "Flow", "Visual Editor", "Wikitext 2.0", "Lua Templates";
+
+
+
+// depreciation: "loosers"
+// I dont think so!
+// HowBad: crooked
+// all bad, great again, not anymore. Everybody, except us. Major problem, I don't know if…
+// got the best words; tell 'em;  “That’s wrong. They were wrong. It’s The New York Times, they’re always wrong. They were wrong.”, amazing, tremendous, the best.
+//"No, I dont know if you…" “That is a mainstream media nonsense that is put out by her because you know, frankly, I think the best person in her campaign is mainstream media.” “That’s called business, by the way,” Many people say, I head people say; (Parody of Mexians statements) "They are not your firends", "They are not commiting their best", "Lines of code that have a lot of problems!" "Because of my genius"
+// alt features
+
